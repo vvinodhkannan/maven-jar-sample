@@ -31,7 +31,7 @@ jobs:
         with:
           registry: ghcr.io
           username: vinodh.v@optisolbusiness.com
-          password: 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
+          password: ${{ secrets.TOKEN_GITHUB }}
     - name: Docker push
       run: |
         docker push jaiobs/maven-jar-sample:latest
