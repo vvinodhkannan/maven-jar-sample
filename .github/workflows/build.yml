@@ -8,8 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
+    #defaults:
+     # run:
        #working-directory: ./s3-processor   
     steps:
     - uses: actions/checkout@v2
